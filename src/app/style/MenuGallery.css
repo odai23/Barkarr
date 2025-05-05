@@ -1,0 +1,88 @@
+.menu-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #111;
+}
+
+.menu-item {
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Modal Styles */
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem;
+  background-color: #111;
+  color: white;
+}
+.menu-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.menu-header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 60%;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 1rem;
+}
+
+.modal-content {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.modal-description {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-price {
+  font-size: 1.2rem;
+  color: #bfa14e;
+  font-weight: bold;
+}

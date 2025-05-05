@@ -1,0 +1,68 @@
+.cocktail-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 8rem;
+  margin-bottom: 3rem;
+}
+
+.slick-slider {
+  width: 95%;
+  height: 110vh !important;
+}
+.slick-next::before {
+  color: black !important;
+  font-size:2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .cocktail-slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    padding: 3rem;
+  }
+  .cocktail-description {
+    padding-left: 0px !important;
+    padding-top: 1rem;
+  }
+
+  .cocktail-description h2 {
+    font-size: 24px !important;
+  }
+  .cocktail-description p {
+    font-size: 16px !important;
+  }
+  .slick-slider {
+    width: 85%;
+    height: 85vh !important;
+  }
+}
+
+.cocktail-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.cocktail-image img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.cocktail-description {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.cocktail-description h2 {
+  font-size: 64px;
+  margin-bottom: 32px;
+  color: black;
+}
+
+.cocktail-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+}
