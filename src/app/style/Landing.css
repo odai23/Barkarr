@@ -1,6 +1,6 @@
 .landing_img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/landing.jpg);
+    url(/images/landing.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
