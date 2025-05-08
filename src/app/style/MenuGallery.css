@@ -1,6 +1,6 @@
 .menu-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
   padding: 2rem;
   background-color: #111;
@@ -9,7 +9,7 @@
 .menu-item {
   overflow: hidden;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 4px;
   transition: transform 0.3s ease;
 }
 
@@ -21,7 +21,33 @@
 }
 
 .menu-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.1);
+}
+
+.menu-cta-link {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.cta-text {
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  width: 180px; /* Adjust width as needed */
+  height: 2px;
+  background-color: white;
+  margin-bottom: 40px; /* 40px between line and arrow */
+}
+
+.arrow {
+  font-size: 1.5rem;
 }
 
 /* Modal Styles */
@@ -30,7 +56,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  padding: 10rem;
+  padding: 7rem;
   background-color: #111;
   color: white;
 }

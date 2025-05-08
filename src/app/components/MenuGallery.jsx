@@ -136,7 +136,7 @@ const MenuGallery = () => {
 
   return (
     <>
-      <div className="menu-header">
+      <div id="MenuGallery" className="menu-header">
         <h1 className="menu-title">
           A UNIQUE DINING EXPERIENCE IN THE HEART OF PRAGUE
         </h1>
@@ -146,6 +146,11 @@ const MenuGallery = () => {
           chicken. We use only the freshest, highest quality ingredients to
           ensure that every dish we serve is bursting with flavor.
         </p>
+        <div className="menu-cta-link">
+          <span className="cta-text">Check out our menu</span>
+          <div className="underline"></div>
+          <div className="arrow">↓</div>
+        </div>
       </div>
       <section className="menu-gallery">
         {imageData.map((img, index) => (
