@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import "../style/MenuGallery.css";
+import Link from "next/link";
 
 const imageData = [
   {
@@ -137,6 +138,9 @@ const MenuGallery = () => {
   return (
     <>
       <div id="MenuGallery" className="menu-header">
+        <Link href="/">
+          <button className="go-home-button">← Go Back Home</button>
+        </Link>
         <h1 className="menu-title">
           A UNIQUE DINING EXPERIENCE IN THE HEART OF PRAGUE
         </h1>
@@ -162,7 +166,6 @@ const MenuGallery = () => {
           </div>
         ))}
       </section>
-
       {selectedImage && (
         <div className="modal-overlay" onClick={handleOverlayClick}>
           <div className="modal-content">

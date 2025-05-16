@@ -1,15 +1,17 @@
-import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 import About_us from "./components/About_us";
 import Footer from "./components/Footer";
-import MenuGallery from "./components/MenuGallery";
+import MenuPreview from "./components/MenuPreview";
+import PanoramaTour from "./components/PanoramaTour";
 
-export default function barkarr() {
+export default function HomePage() {
   return (
     <>
       <Navbar />
       <Landing />
-      <MenuGallery />
+      <MenuPreview />
+      <PanoramaTour />
       <About_us />
       <Footer />
     </>

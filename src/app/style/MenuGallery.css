@@ -112,3 +112,17 @@
   color: #bfa14e;
   font-weight: bold;
 }
+.go-home-button {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-home-button:hover {
+  background-color: #555;
+}

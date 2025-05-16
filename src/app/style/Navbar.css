@@ -59,3 +59,38 @@
   background: linear-gradient(145deg, #000, #bfa14e);
   transform: translateY(-2px);
 }
+.reservation-link {
+  position: relative;
+}
+
+.reservation-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  white-space: nowrap;
+  z-index: 999;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reservation-popup.show {
+  display: block;
+}
+
+.reservation-popup a {
+  display: block;
+  color: white;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  text-decoration: none;
+  margin: 0.25rem 0;
+}
+
+.reservation-popup a:hover {
+  text-decoration: underline;
+}

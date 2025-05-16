@@ -9,13 +9,13 @@ const Footer = () => {
         <div className="footer-section">
           <h3>RESERVATIONS</h3>
           <p>info@barkarr.com</p>
-          <p>+420 777 555 555</p>
+          <p>+420 774 153 253</p>
           <p>Reservations by mail or whatsapp call</p>
         </div>
         <div className="footer-section">
           <h3>OPENING HOURS</h3>
           <p>
-            SUNDAY - FRIDAY
+            Monday- SUNDAY
             <br />
             11:00 - 23:00
           </p>
@@ -23,13 +23,13 @@ const Footer = () => {
         <div className="footer-section">
           <h3>ADDRESS</h3>
           <p>Barkarr | Greek Traditional Cuisine in Prague</p>
-          <p>Vinohrady</p>
+          <p>vrsovice</p>
           <p>📍 Vršovická 1525/1a</p>
         </div>
       </div>
 
       <div className="footer-socials">
-        <a href="#">
+        <a href="https://www.facebook.com/profile.php?id=61570194106605">
           <FaFacebookF />
         </a>
         <a href="https://www.instagram.com/barkarr.cz/">
