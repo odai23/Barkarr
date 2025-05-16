@@ -14,14 +14,16 @@ const geistMono = Geist_Mono({
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
   subsets: ["latin"],
-  weight: ["200", "300", "400", "600", "700"], // add weights as needed
+  weight: ["200", "300", "400", "600", "700"],
 });
 
 export const metadata = {
   title: "Barkarr",
   description: "Greek restaurant food",
+  icons: {
+    icon: "/images/barkalogo.png",
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

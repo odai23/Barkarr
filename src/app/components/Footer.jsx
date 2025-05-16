@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>ADDRESS</h3>
           <p>Barkarr | Greek Traditional Cuisine in Prague</p>
-          <p>vrsovice</p>
+          <p>Vršovice</p>
           <p>📍 Vršovická 1525/1a</p>
         </div>
       </div>
