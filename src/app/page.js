@@ -3,7 +3,7 @@ import Landing from "../components/Landing";
 import About_us from "../components/About_us";
 import Footer from "../components/Footer";
 import MenuPreview from "../components/MenuPreview";
-// import PanoramaTour from "../components/PanoramaTour";
+import PanoramaTour from "../components/PanoramaTour";
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
       <Navbar />
       <Landing />
       <MenuPreview />
-      {/* <PanoramaTour /> */}
+      <PanoramaTour />
       <About_us />
       <Footer />
     </>
