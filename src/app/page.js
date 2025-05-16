@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import MenuPreview from "./components/MenuPreview";
 import PanoramaTour from "./components/PanoramaTour";
 
-export default function HomePage() {
+export default function Page() {
   return (
     <>
       <Navbar />
