@@ -13,11 +13,13 @@
   z-index: 10;
   backdrop-filter: blur(3px);
 }
+
 /* Centered logo */
 .logo_footer {
   width: 18rem;
   margin-bottom: 2rem;
 }
+
 .logo-text {
   color: white;
   font-size: 1.5rem;
@@ -59,6 +61,8 @@
   background: linear-gradient(145deg, #000, #bfa14e);
   transform: translateY(-2px);
 }
+
+/* Reservation dropdown */
 .reservation-link {
   position: relative;
 }
@@ -93,4 +97,74 @@
 
 .reservation-popup a:hover {
   text-decoration: underline;
+}
+
+/* ========== Responsive Breakpoints ========== */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .logo_footer {
+    width: 15rem;
+  }
+
+  .nav-list {
+    gap: 1rem;
+  }
+
+  .nav-list > li > a {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    padding: 2rem 0.75rem;
+  }
+
+  .logo_footer {
+    width: 13rem;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-list > li > a {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .reservation-popup {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .logo_footer {
+    width: 11rem;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .nav-list > li > a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .reservation-popup a {
+    font-size: 0.8rem;
+  }
 }

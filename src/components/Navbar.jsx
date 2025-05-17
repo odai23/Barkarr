@@ -58,34 +58,15 @@ const Navbar = () => {
         <li>
           <a href="#">Home</a>
         </li>
-
-        {/* Ala Carte Menu */}
-        <li className="reservation-link" ref={alaCarteLinkRef}>
-          <a
-            onClick={(e) => {
-              e.preventDefault();
-              togglePopup(alaCartePopupRef);
-            }}>
-            Ala Carte Menu
-          </a>
-          <div className="reservation-popup" ref={alaCartePopupRef}>
-            <a href="/images/FOOD_MENU.pdf" download>
-              Food Menu
-            </a>
-            <a href="/images/DRINK-MENU.pdf" download>
-              Drink Menu
-            </a>
-          </div>
+        <li className="reservation-link">
+          <a href="#menu-preview">Ala Carte Menu</a>
         </li>
-
         <li>
           <a href="/menu">FOOD MENU GALLERY</a>
         </li>
         <li>
           <Link href="/products">Products</Link>
         </li>
-
-        {/* Reservation */}
         <li className="reservation-link" ref={reservationLinkRef}>
           <a
             onClick={(e) => {

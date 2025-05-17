@@ -34,7 +34,7 @@
 
 .menu-preview-item img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   display: block;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -67,6 +67,7 @@
   align-items: center;
   justify-content: center;
   z-index: 999;
+  padding: 1rem;
 }
 
 .image-modal-content {
@@ -75,4 +76,68 @@
   border-radius: 8px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
   cursor: default;
+}
+
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .menu-preview-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .menu-preview-header p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .menu-preview-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .menu-preview-header h2 {
+    font-size: 2rem;
+  }
+
+  .menu-preview-header p {
+    font-size: 0.95rem;
+  }
+
+  .menu-preview-grid {
+    gap: 1.5rem;
+  }
+
+  .menu-preview-item span {
+    font-size: 0.9rem;
+  }
+}
+
+/* iPhone 14 / Small screens */
+@media screen and (max-width: 430px) {
+  .menu-preview-header h2 {
+    font-size: 1.7rem;
+  }
+
+  .menu-preview-header p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .menu-preview-grid {
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .menu-preview-item span {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+
+  .image-modal-content {
+    max-width: 95%;
+    max-height: 80%;
+  }
 }

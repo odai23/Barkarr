@@ -1,3 +1,4 @@
+/* Base styles remain unchanged */
 .about_sec {
   display: flex;
   align-items: center;
@@ -50,22 +51,23 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Tablets & small desktops */
+@media screen and (max-width: 1024px) {
   .about_sec {
-    flex-direction: column;
     padding: 4rem 2rem;
+    flex-direction: column;
   }
 
   .about_heading {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     text-align: center;
   }
 
   .text_wrapper {
     align-items: center;
-    padding: 2rem 0;
-    text-align: center;
+    padding: 2rem 1rem;
   }
 
   .about_text_above,
@@ -74,8 +76,43 @@
   }
 
   .about_img {
-    width: 100%;
-    max-width: 100%;
     margin-top: 2rem;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+  .about_heading {
+    font-size: 2.25rem;
+  }
+
+  .about_img {
+    max-width: 90%;
+  }
+}
+
+/* iPhone 14 / iPhone 14 Pro (390px width) */
+@media screen and (max-width: 430px) {
+  .about_heading {
+    font-size: 1.8rem;
+  }
+
+  .about_text_above,
+  .about_text_right {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .about_sec {
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .text_wrapper {
+    padding: 1rem;
+  }
+
+  .about_img {
+    max-width: 100%;
   }
 }

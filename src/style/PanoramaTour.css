@@ -38,3 +38,43 @@
 .tour-text p {
   font-size: 1.2rem;
 }
+
+/* ===== Responsive Breakpoints ===== */
+
+/* Tablets and small laptops */
+@media screen and (max-width: 1024px) {
+  .tour-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .tour-text p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile screens ≤ 768px */
+@media screen and (max-width: 768px) {
+  .tour-text h2 {
+    font-size: 2rem;
+  }
+
+  .tour-text p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* iPhone 14 / small phones ≤ 430px */
+@media screen and (max-width: 430px) {
+  .tour-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .tour-text p {
+    font-size: 0.95rem;
+  }
+
+  .panorama-tour-section {
+    height: 70vh; /* Adjust for better fit on small screens */
+  }
+}

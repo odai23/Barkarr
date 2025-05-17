@@ -15,7 +15,7 @@ const MenuPreview = () => {
   const closeModal = () => setSelectedImage(null);
 
   return (
-    <section className="menu-preview-section">
+    <section id="menu-preview" className="menu-preview-section">
       <div className="menu-preview-header">
         <h2>DISCOVER OUR HANDCRAFTED MENUS</h2>
         <p>

@@ -40,10 +40,10 @@
 }
 
 .underline {
-  width: 180px; /* Adjust width as needed */
+  width: 180px;
   height: 2px;
   background-color: white;
-  margin-bottom: 40px; /* 40px between line and arrow */
+  margin-bottom: 40px;
 }
 
 .arrow {
@@ -53,24 +53,28 @@
 /* Modal Styles */
 .menu-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 7rem;
+  padding: 7rem 2rem;
   background-color: #111;
   color: white;
 }
+
 .menu-header h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: center;
 }
+
 .menu-header p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   text-align: center;
   width: 60%;
+  max-width: 600px;
 }
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -112,6 +116,7 @@
   color: #bfa14e;
   font-weight: bold;
 }
+
 .go-home-button {
   background-color: #333;
   color: #fff;
@@ -125,4 +130,88 @@
 
 .go-home-button:hover {
   background-color: #555;
+}
+
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Tablets and below */
+@media screen and (max-width: 1024px) {
+  .menu-header {
+    padding: 5rem 1.5rem;
+  }
+
+  .menu-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .menu-header p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+
+  .modal-content {
+    max-width: 90%;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .menu-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    padding: 1.5rem;
+  }
+
+  .menu-header h1 {
+    font-size: 2rem;
+  }
+
+  .menu-header p {
+    font-size: 1rem;
+  }
+
+  .underline {
+    width: 140px;
+  }
+
+  .modal-description {
+    font-size: 0.95rem;
+  }
+
+  .modal-price {
+    font-size: 1.1rem;
+  }
+}
+
+/* iPhone 14 / small screens (≤ 430px) */
+@media screen and (max-width: 430px) {
+  .menu-header {
+    padding: 4rem 1rem;
+  }
+
+  .menu-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .menu-header p {
+    font-size: 0.95rem;
+    width: 100%;
+  }
+
+  .menu-cta-link {
+    font-size: 0.9rem;
+  }
+
+  .underline {
+    width: 120px;
+    margin-bottom: 30px;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+  }
+
+  .go-home-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
