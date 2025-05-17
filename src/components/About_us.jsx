@@ -7,16 +7,18 @@ const AboutUs = () => {
       <div className="text_wrapper">
         <h1 className="about_heading">Why Us?</h1>
         <p className="about_text_above">
-          specializes in seamless and efficient moving services, ensuring that
-          your belongings are handled with care from start to finish. Whether
-          you're moving within the Czech Republic or crossing international
-          borders, Vanpires has the expertise to make the process smooth and
-          stress-free.
+          Stepping into Barakto feels like being transported to a sun-soaked
+          Greek island, where the scent of grilled souvlaki and freshly baked
+          pita fills the air. Our menu brings together the best of traditional
+          Greek flavors, from tender meats and vibrant mezze to fresh, perfectly
+          seasoned seafood that tastes like it came straight from the Aegean.
+          Every dish is crafted with love, using authentic ingredients that
+          honor our heritage.
         </p>
         <p className="about_text_right">
-          Our team's friendly attitude extends to our moving services, where
-          clients can trust in the professionalism and care with which their
-          possessions are handled.
+          Whether you're enjoying a plate of grilled octopus or sipping ouzo
+          with friends, Barakto offers more than just a meal—it’s a celebration
+          of Greek hospitality and the joy of good company.
         </p>
       </div>
       <div className="img_wrapper">

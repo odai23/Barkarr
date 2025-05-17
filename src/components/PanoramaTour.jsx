@@ -8,7 +8,7 @@ const PanoramaTour = () => {
       <div className="video-overlay">
         <video
           className="background-video"
-          src="/videos/restaurant-tour.mp4"
+          src="/images/restaurant-tour.mp4"
           autoPlay
           muted
           loop
