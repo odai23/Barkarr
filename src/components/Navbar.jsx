@@ -61,9 +61,9 @@ const Navbar = () => {
         <li className="reservation-link">
           <a href="#menu-preview">Ala Carte Menu</a>
         </li>
-        <li>
+        {/* <li>
           <a href="/menu">FOOD MENU GALLERY</a>
-        </li>
+        </li> */}
         <li>
           <Link href="/products">Products</Link>
         </li>
