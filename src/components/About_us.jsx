@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="text_wrapper">
         <h1 className="about_heading">Why Us?</h1>
         <p className="about_text_above">
-          Stepping into Barakto feels like being transported to a sun-soaked
+          Stepping into Barka feels like being transported to a sun-soaked
           Greek island, where the scent of grilled souvlaki and freshly baked
           pita fills the air. Our menu brings together the best of traditional
           Greek flavors, from tender meats and vibrant mezze to fresh, perfectly
