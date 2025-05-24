@@ -88,7 +88,7 @@ const Navbar = () => {
               href="mailto:info@barkarr.com"
               target="_blank"
               rel="noopener noreferrer">
-              📧 Email us: info@barkarr.com
+              📧 Email us: info@barkarr.cz
             </a>
           </div>
         </li>
