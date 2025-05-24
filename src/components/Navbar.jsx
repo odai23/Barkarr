@@ -85,7 +85,7 @@ const Navbar = () => {
               📞 Call us: +420 774 153 253
             </a>
             <a
-              href="mailto:info@barkarr.com"
+              href="mailto:info@barkarr.cz"
               target="_blank"
               rel="noopener noreferrer">
               📧 Email us: info@barkarr.cz
