@@ -52,7 +52,11 @@ const Navbar = () => {
         <img className="logo_footer" src="./images/barkalogo.png" alt="Logo" />
       </div>
       <div className="logo-text">
-        check out the best greek food experience in prague
+        We're here to introduce the original Tavern experience in Prague! In our
+        cozy atmosphere, enjoy a mezze-style of dining inspired by the Greek
+        Cyclades. Indulge in authentic Mediterranean flavors, crafted with fresh
+        Greek ingredients and traditional recipes. Experience the warm
+        hospitality and the true essence of Greek cuisine.
       </div>
       <ul className="nav-list">
         <li>
