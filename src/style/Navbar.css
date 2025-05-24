@@ -153,6 +153,9 @@
 }
 
 @media screen and (max-width: 430px) {
+  .navbar-container {
+    padding-top: 0.7rem;
+  }
   .logo_footer {
     width: 11rem;
   }

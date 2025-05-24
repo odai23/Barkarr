@@ -68,9 +68,7 @@ const Navbar = () => {
         {/* <li>
           <a href="/menu">FOOD MENU GALLERY</a>
         </li> */}
-        <li>
-          <Link href="/products">Products</Link>
-        </li>
+
         <li className="reservation-link" ref={reservationLinkRef}>
           <a
             onClick={(e) => {
@@ -93,6 +91,9 @@ const Navbar = () => {
               📧 Email us: info@barkarr.com
             </a>
           </div>
+        </li>
+        <li>
+          <Link href="/products">Products</Link>
         </li>
       </ul>
     </nav>
