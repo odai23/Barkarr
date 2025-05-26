@@ -1,7 +1,11 @@
 .panorama-tour-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   height: 90vh;
   overflow: hidden;
+  width: 50%;
 }
 
 .background-video {

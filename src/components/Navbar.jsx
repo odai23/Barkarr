@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import "../style/Navbar.css";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   const alaCartePopupRef = useRef(null);
@@ -58,13 +59,21 @@ const Navbar = () => {
         Greek ingredients and traditional recipes. Experience the warm
         hospitality and the true essence of Greek cuisine.
       </div>
+      <div className="footer-socials">
+        <a href="https://www.facebook.com/profile.php?id=61570194106605">
+          <FaFacebookF />
+        </a>
+        <a href="https://www.instagram.com/barkarr.cz/">
+          <FaInstagram />
+        </a>
+      </div>
       <ul className="nav-list">
-        <li>
+        {/* <li>
           <a href="#">Home</a>
-        </li>
-        <li className="reservation-link">
+        </li> */}
+        {/* <li className="reservation-link">
           <a href="#menu-preview">Ala Carte Menu</a>
-        </li>
+        </li> */}
         {/* <li>
           <a href="/menu">FOOD MENU GALLERY</a>
         </li> */}
@@ -92,9 +101,9 @@ const Navbar = () => {
             </a>
           </div>
         </li>
-        <li>
+        {/* <li>
           <Link href="/products">Products</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

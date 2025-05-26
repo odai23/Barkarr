@@ -17,11 +17,7 @@ const MenuPreview = () => {
   return (
     <section id="menu-preview" className="menu-preview-section">
       <div className="menu-preview-header">
-        <h2>DISCOVER OUR HANDCRAFTED MENUS</h2>
-        <p>
-          A fusion of tradition and creativity – explore our signature dishes
-          and drinks through curated visuals.
-        </p>
+        <h2>DISCOVER OUR MENUS</h2>
       </div>
 
       <div className="menu-preview-grid">
